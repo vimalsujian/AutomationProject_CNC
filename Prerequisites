@@ -1,0 +1,6 @@
+Prerequisites
+
+1) Download chrome from below path or download latest chrome 95 version:
+D://Testing//workspace//Eclipse//CNC//src//main//resources//Drivers//chromedriver.exe
+2) paste your download chrome in respective above path
+3) update the configuration file with chrome driver path
