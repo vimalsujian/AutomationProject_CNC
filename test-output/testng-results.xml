@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31531" started-at="2021-10-26T15:35:11 IST" finished-at="2021-10-26T15:35:42 IST">
+  <suite name="Default suite" duration-ms="121239" started-at="2021-10-26T18:28:06 IST" finished-at="2021-10-26T18:30:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31531" started-at="2021-10-26T15:35:11 IST" finished-at="2021-10-26T15:35:42 IST">
+    <test name="Default test" duration-ms="121239" started-at="2021-10-26T18:28:06 IST" finished-at="2021-10-26T18:30:07 IST">
       <class name="testcases.AutomationTestScenario">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="setup" is-config="true" duration-ms="5644" started-at="2021-10-26T15:35:11 IST" finished-at="2021-10-26T15:35:16 IST">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="setup" is-config="true" duration-ms="6955" started-at="2021-10-26T18:28:06 IST" finished-at="2021-10-26T18:28:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@f699d5]]>
+                <![CDATA[org.testng.TestRunner@12ca72b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Scenario_TC01()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="Scenario_TC01" duration-ms="16481" started-at="2021-10-26T15:35:16 IST" finished-at="2021-10-26T15:35:33 IST">
+        <test-method status="PASS" signature="Scenario_TC01()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="Scenario_TC01" duration-ms="21350" started-at="2021-10-26T18:28:13 IST" finished-at="2021-10-26T18:28:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario_TC01 -->
-        <test-method status="PASS" signature="Scenario_TC02()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="Scenario_TC02" duration-ms="2856" started-at="2021-10-26T15:35:33 IST" finished-at="2021-10-26T15:35:36 IST">
+        <test-method status="PASS" signature="Scenario_TC02()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="Scenario_TC02" duration-ms="60970" started-at="2021-10-26T18:28:34 IST" finished-at="2021-10-26T18:29:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario_TC02 -->
-        <test-method status="PASS" signature="Scenario_TC03()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="Scenario_TC03" duration-ms="5806" started-at="2021-10-26T15:35:36 IST" finished-at="2021-10-26T15:35:41 IST">
+        <test-method status="PASS" signature="Scenario_TC03()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="Scenario_TC03" duration-ms="31119" started-at="2021-10-26T18:29:35 IST" finished-at="2021-10-26T18:30:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario_TC03 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="tearDown" is-config="true" duration-ms="719" started-at="2021-10-26T15:35:41 IST" finished-at="2021-10-26T15:35:42 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="tearDown" is-config="true" duration-ms="819" started-at="2021-10-26T18:30:06 IST" finished-at="2021-10-26T18:30:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
