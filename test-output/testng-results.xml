@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31531" started-at="2021-10-26T15:35:11 IST" finished-at="2021-10-26T15:35:42 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31531" started-at="2021-10-26T15:35:11 IST" finished-at="2021-10-26T15:35:42 IST">
+      <class name="testcases.AutomationTestScenario">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="setup" is-config="true" duration-ms="5644" started-at="2021-10-26T15:35:11 IST" finished-at="2021-10-26T15:35:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f699d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Scenario_TC01()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="Scenario_TC01" duration-ms="16481" started-at="2021-10-26T15:35:16 IST" finished-at="2021-10-26T15:35:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_TC01 -->
+        <test-method status="PASS" signature="Scenario_TC02()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="Scenario_TC02" duration-ms="2856" started-at="2021-10-26T15:35:33 IST" finished-at="2021-10-26T15:35:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_TC02 -->
+        <test-method status="PASS" signature="Scenario_TC03()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="Scenario_TC03" duration-ms="5806" started-at="2021-10-26T15:35:36 IST" finished-at="2021-10-26T15:35:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario_TC03 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.AutomationTestScenario@1fe1d71]" name="tearDown" is-config="true" duration-ms="719" started-at="2021-10-26T15:35:41 IST" finished-at="2021-10-26T15:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AutomationTestScenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

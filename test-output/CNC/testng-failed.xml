@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CNC]">
+  <test thread-count="5" name="Automation Suite(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.AutomationTestScenario">
+        <methods>
+          <include name="loginTest_TC02"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.AutomationTestScenario -->
+    </classes>
+  </test> <!-- Automation Suite(failed) -->
+</suite> <!-- Failed suite [CNC] -->
