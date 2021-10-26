@@ -76,18 +76,17 @@ public class HomePage {
 	}
 	public void ScrollDown() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,5000)");
+		js.executeScript("window.scrollBy(0,7000)");
         }
 	
 	public void ScrollUp() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,-5000)");
+		js.executeScript("window.scrollBy(0,-6000)");
         }
 	public void VerifySecondArticle() throws InterruptedException {
 		try{
-		Thread.sleep(1000);
+		Thread.sleep(1500);
 		List value=driver.findElements(By.xpath("//*[starts-with(@class,'article__read-full-story-button article__read-full-story-button--')]"));
-		Thread.sleep(500);
 		int innerValue=value.size();
 		driver.findElement(By.xpath("//*[starts-with(@id, 'block-mc-cna-theme-mainpagecontent')]/article["+innerValue+"]/div[@class='article__read-full-story-wrapper hidden']//a")).click();
 		String secondPageTitle=driver.getTitle();
@@ -105,6 +104,7 @@ public class HomePage {
 		try {
 			allSectbtn.click();		
 			List value=driver.findElements(By.xpath("//*[@id='block-mc-cna-theme-allsectionmenumodal']"));
+			Thread.sleep(500);
 			Actions action = new Actions(driver);
 			WebElement elements= driver.findElement(By.xpath("(//*[@id='block-mc-cna-theme-allsectionmenumodal'])["+value.size()+"]//a[contains(text(),'"+firstValue+"')]"));
 			action.moveToElement(elements).build().perform();			

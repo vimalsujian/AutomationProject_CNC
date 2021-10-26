@@ -9,6 +9,8 @@ import org.testng.*;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseClass extends ReadConfiguration {
 	public WebDriver driver;
 		ReadConfiguration readfile=new ReadConfiguration();
@@ -27,7 +29,7 @@ public class BaseClass extends ReadConfiguration {
 		public WebDriver browser(String browserName){
 			try {
 				if(browserName.equals("chrome")){
-					System.setProperty("webdriver.chrome.driver",readfile.getChromePath());
+					WebDriverManager.chromiumdriver().setup();
 					driver= new ChromeDriver();				
 				}
 				String URL=readfile.getURL();			
