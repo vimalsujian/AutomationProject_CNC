@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.AutomationTestScenario">
+      <class name="testcases.Amazontestcase">
         <methods>
-          <include name="Scenario_TC02"/>
-          <include name="Scenario_TC03"/>
           <include name="tearDown"/>
           <include name="setup"/>
+          <include name="Scenario_TC01"/>
         </methods>
-      </class> <!-- testcases.AutomationTestScenario -->
+      </class> <!-- testcases.Amazontestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

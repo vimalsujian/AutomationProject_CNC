@@ -1,40 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121239" started-at="2021-10-26T18:28:06 IST" finished-at="2021-10-26T18:30:07 IST">
+  <suite name="Default suite" duration-ms="16578" started-at="2021-11-20T15:10:37 IST" finished-at="2021-11-20T15:10:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121239" started-at="2021-10-26T18:28:06 IST" finished-at="2021-10-26T18:30:07 IST">
-      <class name="testcases.AutomationTestScenario">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="setup" is-config="true" duration-ms="6955" started-at="2021-10-26T18:28:06 IST" finished-at="2021-10-26T18:28:13 IST">
+    <test name="Default test" duration-ms="16578" started-at="2021-11-20T15:10:37 IST" finished-at="2021-11-20T15:10:54 IST">
+      <class name="testcases.Amazontestcase">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:testcases.Amazontestcase@2663d3]" name="setup" is-config="true" duration-ms="4046" started-at="2021-11-20T15:10:37 IST" finished-at="2021-11-20T15:10:41 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@12ca72b]]>
+                <![CDATA[org.testng.TestRunner@121844c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Scenario_TC01()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="Scenario_TC01" duration-ms="21350" started-at="2021-10-26T18:28:13 IST" finished-at="2021-10-26T18:28:34 IST">
+        <test-method status="PASS" signature="Scenario_TC01()[pri:0, instance:testcases.Amazontestcase@2663d3]" name="Scenario_TC01" duration-ms="11053" started-at="2021-11-20T15:10:41 IST" finished-at="2021-11-20T15:10:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scenario_TC01 -->
-        <test-method status="PASS" signature="Scenario_TC02()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="Scenario_TC02" duration-ms="60970" started-at="2021-10-26T18:28:34 IST" finished-at="2021-10-26T18:29:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scenario_TC02 -->
-        <test-method status="PASS" signature="Scenario_TC03()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="Scenario_TC03" duration-ms="31119" started-at="2021-10-26T18:29:35 IST" finished-at="2021-10-26T18:30:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scenario_TC03 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.AutomationTestScenario@186f9d5]" name="tearDown" is-config="true" duration-ms="819" started-at="2021-10-26T18:30:06 IST" finished-at="2021-10-26T18:30:07 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.Amazontestcase@2663d3]" name="tearDown" is-config="true" duration-ms="1459" started-at="2021-11-20T15:10:52 IST" finished-at="2021-11-20T15:10:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.AutomationTestScenario -->
+      </class> <!-- testcases.Amazontestcase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

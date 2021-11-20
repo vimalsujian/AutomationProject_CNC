@@ -74,14 +74,14 @@ public class HomePage {
 		}
 		
 	}
-	public void ScrollDown() {
+	public void ScrollDown(String value) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,7000)");
+		js.executeScript("window.scrollBy(0,"+value+")");
         }
 	
-	public void ScrollUp() {
+	public void ScrollUp(String value) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,-6000)");
+		js.executeScript("window.scrollBy(0,"+value+")");
         }
 	public void VerifySecondArticle() throws InterruptedException {
 		try{

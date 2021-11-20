@@ -13,9 +13,9 @@ public class AutomationTestScenario extends BaseClass {
 		HomePage homePage = new HomePage(driver);
 		homePage.VerifyTitle();
 		homePage.ValidateArticle();
-		homePage.ScrollDown();
+		homePage.ScrollDown("7000");
 		homePage.VerifySecondArticle();
-		homePage.ScrollUp();
+		homePage.ScrollUp("-6000");
 	}
 	
 	@Test

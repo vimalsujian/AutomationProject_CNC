@@ -32,9 +32,6 @@ public class ReadConfiguration {
 		String browserName=prop.getProperty("BROWSERNAME");
 		return browserName;
 	}
-	public String getChromePath(){
-		String chromepath =prop.getProperty("CHROMEEXE");
-		return chromepath;
-	}
+	
 	
 }
